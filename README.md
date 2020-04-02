@@ -20,5 +20,7 @@
 11. You used a for loop. You tried list comprehension but there appeared to be memory issues. You got around this by:
     * Using concatenation instead of creating new variables
     * Clearing the memory with python's `del` statement
-    * You want to serve up some of this data on a Rasperry Pi so you need to be conservative with resources
-    * Holding multiple dataframes in memory simultaneously makes this program crash - using list comprehension results in a 'Killed' error
+12. You want to serve up some of this data on a Rasperry Pi so you need to be conservative with resources, luckily you have multiple other options to do this heavy lifting.
+13. Holding multiple dataframes in memory simultaneously makes this program crash - using list comprehension results in a 'Killed' error. Read the following links when you have time again:
+    * [A question answered on Stackoverflow about this error](https://stackoverflow.com/questions/19189522/what-does-killed-mean "Python - What does killed mean?")
+    * [A page about the 'OOM killer'](https://lwn.net/Articles/761118/)
