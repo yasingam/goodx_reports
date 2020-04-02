@@ -2,7 +2,7 @@
 ## Scripts for dealing with GoodX reports
 ### Repository of scripts used for data handling for the GoodX system for use at the University of Pretoria School of Dentistry
 #### Yasin's Log 02/03/2020
-##### file_handler.py, language - python3
+##### file_handler.py added, language - python3
 1. You created a function which compiles GoodX CSV reports from admindaily and edudaily to a single admin and edu file.
 2. This program defines a location where the CSVs are stored. By default it is a subdirectory called 'raw_data'
 3. This program looks for .csv files in this subdirectory.
