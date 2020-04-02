@@ -25,3 +25,4 @@
 13. Holding multiple dataframes in memory simultaneously makes this program crash - using list comprehension results in a 'Killed' error. Read the following links when you have time again:
     * [A question answered on Stackoverflow about this error](https://stackoverflow.com/questions/19189522/what-does-killed-mean "Python - What does killed mean?")
     * [A page about the 'OOM killer'](https://lwn.net/Articles/761118/)
+14. It occurs to me that effort should be expended in learning SQL rather than using dealing with all this redundancy.
