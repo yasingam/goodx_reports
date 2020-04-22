@@ -2,7 +2,7 @@
 ## Scripts for dealing with GoodX reports
 ### Repository of scripts used for data handling for the GoodX system for use at the University of Pretoria School of Dentistry
 #### Yasin's Log 22/04/2020
-#####goodx_data_reader.py added
+##### goodx_data_reader.py added
 1. You created the data reader to test whether there any issues with data retreival and there aren't
 2. In future you should create a table of ICD10 and procedure codes and their descriptions
 3. You added a .gitignore file to prevent uploading or raw or compressed data
