@@ -1,9 +1,15 @@
 # goodx_reports
 ## Scripts for dealing with GoodX reports
 ### Repository of scripts used for data handling for the GoodX system for use at the University of Pretoria School of Dentistry
+#### Yasin's Log 22/04/2020
+#####goodx_data_reader.py added
+1. You created the data reader to test whether there any issues with data retreival and there aren't
+2. In future you should create a table of ICD10 and procedure codes and their descriptions
+3. You added a .gitignore file to prevent uploading or raw or compressed data
+4. For future reference, this raw data should be placed into a folder called raw_data
 #### Yasin's Log 02/04/2020
 ##### goodx_data_handler.py added, language - python3
-1. You created a function which compiles GoodX CSV reports from admindaily and edudaily to a single admin and edu file.
+1. You created a function which compiles GoodX CSV reports from admindaily and edudaily to a single admin and edu file
 2. This program defines a location where the CSVs are stored. By default it is a subdirectory called 'raw_data'
 3. This program looks for .csv files in this subdirectory.
 4. It then adds those with admin in the name to admin_list and those - with edu in the name to edu_list
